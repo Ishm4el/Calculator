@@ -9,7 +9,7 @@ body {
 #app {
     background-color: lightgoldenrodyellow;
     border: 3px darksalmon solid;
-    border-radius: 10px;
+    border-radius: 10px;    
     width: 75vw;
     height: 75vh;
     display: flex;
@@ -22,6 +22,7 @@ body {
 #screen {
     font-size: 6.2vw;
     min-height: 8.2vw;
+    max-height: 8.2vw;
     display: grid;
     justify-items: end;
     padding: 15px;
