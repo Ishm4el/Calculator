@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    background-color: lightgoldenrodyellow;
+    border: 1px black solid;
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    padding: 30px;
+}
+
+#screen {
+    border: 1px black solid;
+    background-color: aliceblue;
+    font-size: 6.2vw;
+    min-height: 8.2vw;
+    word-wrap: break-word;
+    /* overflow-x: scroll;
+    white-space: nowrap; */
+}
+
+#buttons {
+    display: flex;
+    flex: 1 1 30px;
+}
+
+#numbers {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30px;
+}
+
+#numbers button {
+    flex: 1 1 40px;
+    width: max-content;
+}
+
+button {
+    font-size: 4vw;
+}
+
+#row1, #row2, #row3, #row4, #clear {
+    display: flex;
+    flex: auto;
+}
+
+#clear {
+    flex: 0.2 0 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
